@@ -1,0 +1,13 @@
+console.log('Starting app.js');
+// const fs = require('fs');
+// const os = require('os');
+// var user = os.userInfo();
+const notes = require('./notes.js');
+var res = notes.addNote();
+console.log(res);
+var res1 =notes.add(9,-2);
+ // console.log('Adding: ',notes.add(7,5));
+// console.log(res1);
+//console.log(user);
+// fs.appendFile('greetings.txt','Hello '+user.username+'!');
+// fs.appendFile('greetings.txt',`Hello ${user.username} You are ${notes.age}.`);
